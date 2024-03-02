@@ -1,0 +1,285 @@
+---
+title: "DSC 520 Project"
+author: "Nathan Reed"
+date: "2023-05-14"
+output: html_document
+---
+
+# Step 1
+
+## Introduction
+I want to research the topic of how to find students that are at risk of not 
+graduating College. This is important because there are lots of students 
+who drop out of school each year due to many factors. This research would help administrators be able to find students that are more likely to drop out and 
+help prevent them from dropping out. This is a data science problem because Data Scientists are able to use data to find patterns that would help them identify 
+these at risk students more likely.
+
+## Research Questions
+1. Is there a correlation between demographic and drop outs?  
+2. Does poor academic performance or work ethic contribute more to dropping out?  
+3. Are students with disabilities more likely to drop out than neurotypical students?  
+4. If the parents dropped out does that mean that student is more likely to drop out?  
+5. Does socioeconomic status effect the likelihood of dropping out?  
+6. Is where you live significant relating to the state you are studying in?  
+7. Is gender significant in the effect of dropping out?  
+
+## Approach
+I will use data from different sources to answer the questions that I can with 
+each individual dataset. I will then add all the key variables that answer the 
+questions above. I will then make sure all linearity, independent, normality, 
+and equal variance assumptions are correct. I would make sure that it is clean 
+and then run any transformations that are needed. I would then use anova to 
+decide the model of best fit based off of adjusted $r^2$. I would then use plots
+and tables to decide what is significant and not for the research questions 
+above.
+
+## How your approach addresses the problem
+The approach mentioned should help answer the overarching problem I want to 
+solve as well as the research questions because of the significance tests that 
+I will use to prove if they effect drop out rates or not.
+
+## Data
+Valentim Realinho, Jorge Machado, Luís Baptista, & Mónica V. Martins. (2021). Predict students' dropout and academic success (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5777340
+
+This data was originally used for predicting student dropouts and academic 
+success. 24 different variables. 
+
+https://data.world/databeats
+The data is sourced from two primary sources – the National Center for Education Statistics (NCES)’ Integrated Postsecondary Education System (IPEDS) and 
+Voluntary System of Accountability’s Student Success and Progress rate. 
+
+Martínez, Alvaro; Verdú, Elena; Moreno-Ger, Pablo (2019), “University dropout experiment”, Mendeley Data, V1, doi: 10.17632/pn8k5xp37c.1
+
+## Required Packages
+```{r}
+library(dplyr)
+library(ggplot2)
+library(corrplot)
+library(car)
+library(purrr)
+```
+
+## Plots and Tables
+I would make sure to do qqplots, scatterplots, histograms, boxplot, correlation 
+matrix, summary statistics, and anova.
+
+## Questions for Future Steps
+Should I consolidate all my data for this or use 3 individual datasets to answer
+different questions?
+How to make a model with more than one dataset being used?
+
+# Step 2
+
+## How to import and clean my data
+I first read in the data from each different dataset.
+```{r}
+setwd("C:/Users/ncree/OneDrive/Documents/DSC 520")
+dropout_df1 <- read.csv("dropout_data_1.csv")
+dropout_df2 <- read.csv("dropout_data_2.csv")
+dropout_df3 <- read.csv("dropout_data_3.csv")
+```
+After reading in all the datasets, I first made sure there was no duplicates. I 
+Then made sure to keep only the variables that I want to use for the data. I 
+then made sure that all the variable names work so that I can use them easy. I 
+then made all of the NA's in grad_rate on the dropout_df2 dataframe a 0.0 so we 
+can use it in the graphs.
+```{r}
+# finds any duplicates in the data
+dropout_df1 <- dropout_df1[!duplicated(dropout_df1), ]
+dropout_df2 <- dropout_df2[!duplicated(dropout_df2), ]
+dropout_df3 <- dropout_df3[!duplicated(dropout_df3), ]
+# keeps only columns that I want for each data set
+drop1 <- c("Application.mode","Application.order", "Course", "International",
+           "Daytime.evening.attendance", "Age.at.enrollment",
+           "Curricular.units.1st.sem..without.evaluations.",
+           "Curricular.units.2nd.sem..without.evaluations.",
+           "Curricular.units.2nd.sem..approved.", 
+           "Curricular.units.1st.sem..approved.", 
+           "Curricular.units.2nd.sem..credited.", 
+           "Curricular.units.1st.sem..credited.", 
+           "Curricular.units.2nd.sem..enrolled.", 
+           "Curricular.units.1st.sem..enrolled.",
+           "Curricular.units.1st.sem..evaluations.",
+           "Curricular.units.2nd.sem..evaluations.")
+dropout_df1 <- dropout_df1[,!(names(dropout_df1) %in% drop1)]
+drop2 <- c("index","stateid", "state_abbr", "level", "year", "cohort", 
+           "grad_cohort_ct", "control")
+dropout_df2 <- dropout_df2[,!(names(dropout_df2) %in% drop2)]
+drop3 <- c("Vulnerable_group", "Desired_Program", "H_subjects", "STEM_subjects")
+dropout_df3 <- dropout_df3[,!(names(dropout_df3) %in% drop3)]
+# changing variable names
+colnames(dropout_df1)[c(2:8)] <- c("Prev.Education","Prev.Education.Grade", 
+                                  "Nationality", "Mom.Education", 
+                                  "Dad.Education", "Mom.job", "Dad.job")
+colnames(dropout_df1)[c(16,17)] <- c("First.Sem.Grade", "Second.Sem.Grade")
+# changing all NA's to a 0.0 for the percentage in grad rate
+dropout_df2[is.na(dropout_df2)] <- 0.0
+dropout_df2$dropout <- dropout_df2$grad_cohort - (dropout_df2$grad_100 +
+                                                    dropout_df2$grad_150)
+attach(dropout_df2)
+dropout_df2 <- dropout_df2[order(state),]
+dropout_df1$Dropout[dropout_df1$Target == "Dropout"] <- 1
+dropout_df1$Dropout[dropout_df1$Target == "Graduate"] <- 0
+dropout_df3$Dropout[dropout_df3$Dropout == "YES"] <- 1
+dropout_df3$Dropout[dropout_df3$Dropout == "NO"] <- 0
+```
+
+
+## What does the final data set look like?
+```{r}
+head(dropout_df1)
+head(dropout_df2)
+head(dropout_df3)
+```
+
+## Questions for future steps
+I feel like I was able to import and do everything that I wanted to do to clean 
+the data. The only thing that I may want to learn is how to combine all the 
+imported data.
+
+## What information is not self-evident?
+On the second data set, there is not really a dropout column for the dataset. I 
+will need to create is using the other columns for time that take over 100% and 
+150% of the normal time it takes to graduate.
+
+## What are different ways you could look at this data?
+I believe I will be able to answer all the questions except for substance abuse 
+by just comparing the variable for the category to those who dropped out. For 
+substance abuse I will probably need to find another dataset or make some 
+assumptions about those who are more likely to abuse substances.
+
+## How do you plan to slice and dice the data?
+I do plan on creating more columns for the data by using other columns in the 
+data. An example of this is mentioned above, but I would like to create a column 
+for dropout for the second dataframe. Other than that, the data seems clean and 
+ready enough for modeling.
+
+## How could you summarize your data to answer key questions?
+I would create a model and run anova tests to see if one group is more likely to
+dropout. I then would also use the summary function to see if any of the 
+variables is significant.
+
+## What types of plots and tables will help you to illustrate the findings to your questions?
+There isn't really a table that will help illustrate my findings for my 
+questions. I would use Anova and summary tables in order to answer the questions 
+that I had. I would use it for finding the significant variables as well as the 
+student who is most likely to dropout.
+
+A plot that would help with the data is histograms. I am mainly working with 
+categorical variables, so I can run each variable and see which ones are more 
+likely to produce dropouts.
+```{r}
+dropout_lm1 <- lm(Dropout~ Prev.Education.Grade + Educational.special.needs, 
+                  data = dropout_df1)
+summary(dropout_lm1)
+ggplot(dropout_df2,aes(x = race, y = dropout)) + geom_bar(stat = "identity") +
+  scale_y_continuous(expand = c(0,0), limits = c(0,40000000))
+ggplot(dropout_df2,aes(x = gender, y = dropout)) + geom_bar(stat = "identity") +
+  scale_y_continuous(expand = c(0,0), limits = c(0,40000000))
+ggplot(dropout_df2[1:21235,],aes(x = state, y = dropout)) + 
+  geom_bar(stat = "identity") + scale_y_continuous(expand = c(0,0), 
+                                                   limits = c(0,40000000))
+ggplot(dropout_df2[21236:42471,],aes(x = state, y = dropout)) + 
+  geom_bar(stat = "identity") + scale_y_continuous(expand = c(0,0), 
+                                                   limits = c(0,40000000))
+ggplot(dropout_df2[42472:63706,],aes(x = state, y = dropout)) + 
+  geom_bar(stat = "identity") + scale_y_continuous(expand = c(0,0), 
+                                                   limits = c(0,40000000))
+ggplot(dropout_df2[63707:84942,],aes(x = state, y = dropout)) + 
+  geom_bar(stat = "identity") + scale_y_continuous(expand = c(0,0), 
+                                                   limits = c(0,40000000))
+dropout_lm2 <- lm(dropout~ race + gender + state, data = dropout_df2)
+summary(dropout_lm2)
+ggplot(dropout_df3,aes(x = Dropout, y = Family_income)) + 
+  geom_bar(stat = "identity")
+socioeconomic <- table(dropout_df3$Socioeconomic_level, dropout_df3$Dropout)
+mosaicplot(socioeconomic)
+Fatherlevel <- table(dropout_df3$Father_level, dropout_df3$Dropout)
+mosaicplot(Fatherlevel)
+Motherlevel <- table(dropout_df3$Mother_level, dropout_df3$Dropout)
+mosaicplot(Motherlevel)
+dropout_lm3 <- lm(Dropout~ Socioeconomic_level + Family_income + Father_level +
+                    Mother_level, data = dropout_df3)
+summary(dropout_lm3)
+```
+
+As seen from this graph we can tell that it seems that there are a lot more 
+Caucasians who drop out then others. We can also tell from the states that the
+states with more population like Texas, New York, and California have more 
+dropouts. Then with gender ones with both are more likely to drop out than both 
+male and female. Both the state and demographic question do not explain the 
+dropout rates as this could easily be connected that there are more people in 
+those states than others as well as there might be more Caucasians at college 
+than other demographics.
+
+## Do you plan on incorporating any machine learning techniques to answer your research questions? Explain.
+I do not plan on using it machine learning to predict what type of students are 
+more likely to drop out. Other than that, I do not plan on using it as this does
+not need much machine learning to work.
+
+## Questions for future steps.
+How to best use predictions for this dataset in order to predict what type of 
+student is most likely to dropout of college?
+
+# Step 3
+
+## Introduction
+I have been able to learn through this data that there are groups that are more
+likely to dropout from college than others. As mentioned in previous sections I 
+would still need to make sure that the data does not have causation that could 
+be affecting the results. I would need to make sure that there is no other 
+reason for the type of student to dropout more than others.  
+
+## The problem statement you addressed
+I addressed the problem of what type of student is more likely to dropout of 
+college than others. This is an important issue due to the fact that there are a 
+lot of people who dropout of school early and are unable to find jobs. With more 
+jobs requiring more education, this is a serious issue and it could be used to 
+find out whether high school or even middle school students are more likely to
+dropout.
+
+## How you addressed this problem statement
+I looked at the gender, demographic, previous generation education, the state 
+they learned in, socioeconomic status, work ethic, or if they had a learning 
+disability. I used summary statistics and boxplots to see if one group made it 
+more likely to dropout.
+
+## Analysis
+I was able to find out that people consider themselves both genders are more 
+likely to dropout than both male and female. I was also able to find out that 
+people who either don't disclose their race or who did not fall under the 
+categories listed are more likely to dropout. I was also able to note that 
+Texas, California, and New York have more dropouts, however this could be more 
+related to the population size than they are more likely to have dropouts. I was 
+also able to find out that previous education grade was significant in how well 
+students performed while if you had disabilities it was not. We can also tell
+that, while not a huge indicator, if your family has more income you are less 
+likely to dropout. I was also able to find that the parents level of education
+was not as helpful as I would have thought. neither were significant and you 
+could barely tell the difference in the mosaic graph that I did. 
+
+## Implications
+The implication of this data is that there are some student who will fall in 
+this category that would not end up dropping out but because they are more 
+likely to dropout, they would be forced to get help that they do not really 
+need. Another big issue would be that people that fall into this category would
+be more likely to give up and dropout because they know that they are more 
+likely to dropout anyways. There is also the issue that finding ways to help 
+these students could be expensive and not all schools have the budget to offer 
+programs to help.
+
+## Limitations
+While this is real data, it is not perfect as there are many data points that 
+are not useful. One example of this is for state there were way more dropouts in
+a state called the United States. This is not a state obviously, but they were 
+unable to get the exact state. This data is not very useful for what states are
+more likely to have dropouts. Another issue is that I was unable to come up with
+an effective way to compare groups that are the majority compared to the 
+minority. Another limitation I had was how to make all the data I had combined
+so I could make an effective model.
+
+## Concluding Remarks
+I thought this project helped me realize there is still a lot to learn how to 
+do. I was able to get some results that I was looking for that made the project 
+very interesting. I know that there is still a lot to learn with how to make 
+data fit together, make sense, and be able to be used to make analysis. 
