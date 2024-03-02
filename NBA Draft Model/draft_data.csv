@@ -1,0 +1,297 @@
+,overall,team.name,team.market,team.alias,prospect.first_name,prospect.last_name,prospect.name,prospect.position,prospect.height,prospect.weight,prospect.experience,prospect.team_name
+0,1,Pelicans,New Orleans,NOP,Zion,Williamson,Zion Williamson,F,79,285,FR,NONE
+1,2,Grizzlies,Memphis,MEM,Ja,Morant,Ja Morant,G,75,175,SO,NONE
+2,3,Knicks,New York,NYK,R.J.,Barrett,R.J. Barrett,F,79,202,FR,NONE
+3,4,Lakers,Los Angeles,LAL,De'Andre,Hunter,De'Andre Hunter,G,79,225,SO,NONE
+4,5,Cavaliers,Cleveland,CLE,Darius,Garland,Darius Garland,G,74,175,FR,NONE
+5,6,Suns,Phoenix,PHX,Jarrett,Culver,Jarrett Culver,G,77,195,SO,NONE
+6,7,Bulls,Chicago,CHI,Coby,White,Coby White,G,77,185,FR,NONE
+7,8,Hawks,Atlanta,ATL,Jaxson,Hayes,Jaxson Hayes,F,83,220,FR,NONE
+8,9,Wizards,Washington,WAS,Rui,Hachimura,Rui Hachimura,F,80,230,JR,NONE
+9,10,Hawks,Atlanta,ATL,Cam,Reddish,Cam Reddish,F,80,218,FR,NONE
+10,11,Timberwolves,Minnesota,MIN,Cameron,Johnson,Cameron Johnson,G,81,210,GR,NONE
+11,12,Hornets,Charlotte,CHA,PJ,Washington,PJ Washington,F,80,228,SO,NONE
+12,13,Heat,Miami,MIA,Tyler,Herro,Tyler Herro,G,77,195,FR,NONE
+13,14,Celtics,Boston,BOS,Romeo,Langford,Romeo Langford,G,78,215,FR,NONE
+14,15,Pistons,Detroit,DET,Sekou,Doumbouya,Sekou Doumboya,F,81,231,NONE,Limoges CSP
+15,16,Magic,Orlando,ORL,Chuma,Okeke,Chuma Okeke,F,80,230,SO,NONE
+16,17,Nets,Brooklyn,BKN,Nickeil,Alexander-Walker,Nickeil Alexander-Walker,G,77,205,SO,NONE
+17,18,Pacers,Indiana,IND,Goga,Bitadze,Goga Bitadze,C,83,251,NONE,Buducnost
+18,19,Spurs,San Antonio,SAS,Luka,Samanic,Luka Samanic,F,83,209,NONE,Petrol Olimpija
+19,20,Celtics,Boston,BOS,Matisse,Thybulle,Matisse Thybulle,G,77,200,SR,NONE
+20,21,Thunder,Oklahoma City,OKC,Brandon,Clarke,Brandon Clarke,F,80,215,JR,NONE
+21,22,Celtics,Boston,BOS,Grant,Williams,Grant Williams,F,79,236,JR,NONE
+22,23,Thunder,Oklahoma City,OKC,Darius,Bazley,Darius Bazley,F,81,200,NONE,Princeton High School
+23,24,76ers,Philadelphia,PHI,Ty,Jerome,Ty Jerome,G,77,195,JR,NONE
+24,25,Trail Blazers,Portland,POR,Nassir,Little,Nassir Little,F,78,220,FR,NONE
+25,26,Cavaliers,Cleveland,CLE,Dylan,Windler,Dylan Windler,G-F,80,200,SR,NONE
+26,27,Nets,Brooklyn,BKN,Mfiondu,Kabengele,Mfiondu Kabengele,F,82,250,SO,NONE
+27,28,Warriors,Golden State,GSW,Jordan,Poole,Jordan Poole,G,77,195,SO,NONE
+28,29,Spurs,San Antonio,SAS,Keldon,Johnson,Keldon Johnson,G,78,211,FR,NONE
+29,30,Bucks,Milwaukee,MIL,Kevin,Porter,Kevin Porter Jr.,G,78,175,FR,NONE
+30,31,Nets,Brooklyn,BKN,Nicolas,Claxton,Nicolas Claxton,F,83,220,SO,NONE
+31,32,Pacers,Indiana,IND,KZ,Okpala,KZ Okpala,F,81,215,SO,NONE
+32,33,76ers,Philadelphia,PHI,Carsen,Edwards,Carsen Edwards,G,73,200,JR,NONE
+33,34,76ers,Philadelphia,PHI,Bruno,Fernando,Bruno Fernando,F,82,240,SO,NONE
+34,35,Hawks,Atlanta,ATL,Marcos,Louzada Silva,Marcos Louzada Silva,G,77,185,NONE,Franca
+35,36,Hornets,Charlotte,CHA,Cody,Martin,Cody Martin,G,79,200,SR,NONE
+36,37,Mavericks,Dallas,DAL,Deividas,Sirvydis,Deividas Sirvydis,G,80,190,NONE,Rytas Vilnius
+37,38,Bulls,Chicago,CHI,Daniel,Gafford,Daniel Gafford,F,83,233,SO,NONE
+38,39,Pelicans,New Orleans,NOP,Alen,Smailagic,Alen,F,82,215,NONE,Santa Cruz Warriors
+39,40,Kings,Sacramento,SAC,Justin,James,Justin James,G,79,190,SR,NONE
+40,41,Warriors,Golden State,GSW,Eric,Paschall,Eric Paschall,F,80,255,SR,NONE
+41,42,76ers,Philadelphia,PHI,Admiral,Schofield,Admiral Schofield,G,78,241,SR,NONE
+42,43,Timberwolves,Minnesota,MIN,Jaylen,Nowell,Jaylen Nowell,G,76,200,SO,NONE
+43,44,Heat,Miami,MIA,Bol,Bol,Bol Bol,C,86,230,FR,NONE
+44,45,Pistons,Detroit,DET,Isaiah,Roby,Isaiah Roby,F,80,230,JR,NONE
+45,46,Magic,Orlando,ORL,Talen,Horton-Tucker,Talen Horton-Tucker,G,76,233,FR,NONE
+46,47,Kings,Sacramento,SAC,Ignas,Brazdeikis,Ignas Brazdeikis,F,79,215,FR,NONE
+47,48,Clippers,Los Angeles,LAC,Terance,Mann,Terance Mann,G,79,215,SR,NONE
+48,49,Spurs,San Antonio,SAS,Quinndary,Weatherspoon,Quinndary Weatherspoon,G,76,205,SR,NONE
+49,50,Pacers,Indiana,IND,Jarrell,Brantley,Jarrell Brantley,F,79,255,SR,NONE
+50,51,Celtics,Boston,BOS,Tremont,Waters,Tremont Waters,G,71,175,SO,NONE
+51,52,Hornets,Charlotte,CHA,Jalen,McDaniels,Jalen McDaniels,F,82,195,SO,NONE
+52,53,Jazz,Utah,UTA,Justin,Wright-Foreman,Justin Wright-Foreman,G,74,190,SR,NONE
+53,54,76ers,Philadelphia,PHI,Marial,Shayok,Marial Shayok,G,78,198,SR,NONE
+54,55,Knicks,New York,NYK,Kyle,Guy,Kyle Guy,G,74,175,JR,NONE
+55,56,Clippers,Los Angeles,LAC,Jaylen,Hands,Jaylen Hands,G,75,180,SO,NONE
+56,57,Pelicans,New Orleans,NOP,Jordan,Bone,Jordan Bone,G,75,180,JR,NONE
+57,58,Warriors,Golden State,GSW,Miye,Oni,Miye Oni,G,78,210,JR,NONE
+58,59,Raptors,Toronto,TOR,Dewan,Hernandez,Dewan Hernandez,F,83,235,JR,NONE
+59,60,Kings,Sacramento,SAC,Vanja,Marinkovic,Vanja Marinkovic,G,78,190,NONE,Partizan
+60,1,Timberwolves,Minnesota,MIN,Anthony,Edwards,Anthony Edwards,G,77,225,FR,Georgia
+61,2,Warriors,Golden State,GSW,James,Wiseman,James Wiseman,C,85,240,FR,NONE
+62,3,Hornets,Charlotte,CHA,LaMelo,Ball,LaMelo Ball,G,79,181,NONE,Illawarra Hawks
+63,4,Bulls,Chicago,CHI,Patrick,Williams,Patrick Williams,F,80,215,FR,Florida State
+64,5,Cavaliers,Cleveland,CLE,Isaac,Okoro,Isaac Okoro,F,78,225,FR,Auburn
+65,6,Hawks,Atlanta,ATL,Onyeka,Okongwu,Onyeka Okongwu,F,81,245,FR,USC
+66,7,Pistons,Detroit,DET,Killian,Hayes,Killian Hayes,G,77,216,NONE,ratiopharm Ulm
+67,8,Knicks,New York,NYK,Obi,Toppin,Obi Toppin,F,81,220,SO,Dayton
+68,9,Wizards,Washington,WAS,Deni,Avdija,Deni Avdija,F,81,220,NONE,Maccabi Tel Aviv
+69,10,Suns,Phoenix,PHX,Jalen,Smith,Jalen Smith,F,82,225,SO,Maryland
+70,11,Spurs,San Antonio,SAS,Devin,Vassell,Devin Vassell,G-F,78,180,SO,Florida State
+71,12,Kings,Sacramento,SAC,Tyrese,Haliburton,Tyrese Haliburton,G,77,175,SO,Iowa State
+72,13,Pelicans,New Orleans,NOP,Kira,Lewis,Kira Lewis Jr.,G,75,165,SO,NONE
+73,14,Celtics,Boston,BOS,Aaron,Nesmith,Aaron Nesmith,F,78,213,SO,Vanderbilt
+74,15,Magic,Orlando,ORL,Cole,Anthony,Cole Anthony,F,75,190,FR,North Carolina
+75,16,Trail Blazers,Portland,POR,Isaiah,Stewart,Isaiah Stewart,F,81,250,FR,NONE
+76,17,Timberwolves,Minnesota,MIN,Aleksej,Pokuševski,Aleksej Pokusevski,F,82,195,NONE,Olympiacos B.C.
+77,18,Mavericks,Dallas,DAL,Josh,Green,Josh Green,G,78,210,FR,NONE
+78,19,Nets,Brooklyn,BKN,Saddiq,Bey,Saddiq Bey,F,80,216,SO,Villanova
+79,20,Heat,Miami,MIA,Precious,Achiuwa,Precious Achiuwa,F,81,225,FR,Memphis
+80,21,76ers,Philadelphia,PHI,Tyrese,Maxey,Tyrese Maxey,G,75,198,FR,Kentucky
+81,22,Nuggets,Denver,DEN,Zeke,Nnaji,Zeke Nnaji,F,83,240,FR,NONE
+82,23,Knicks,New York,NYK,Leandro,Bolmaro,Leandro Bolmaro,F,79,182,NONE,FC Barcelona
+83,24,Bucks,Milwaukee,MIL,R.J.,Hampton,R.J. Hampton,G,77,185,NONE,New Zealand Breakers
+84,25,Thunder,Oklahoma City,OKC,Immanuel,Quickley,Immanuel Quickley,G,75,188,SO,NONE
+85,26,Celtics,Boston,BOS,Payton,Pritchard,Payton Pritchard,G,74,190,SR,NONE
+86,27,Jazz,Utah,UTA,Udoka,Azubuike,Udoka Azubuike,C,84,280,SR,NONE
+87,28,Lakers,Los Angeles,LAL,Jaden,McDaniels,Jaden McDaniels,F,81,200,FR,NONE
+88,29,Raptors,Toronto,TOR,Malachi,Flynn,Malachi Flynn,G,73,180,JR,NONE
+89,30,Celtics,Boston,BOS,Desmond,Bane,Desmond Bane,G,78,215,SR,NONE
+90,31,Mavericks,Dallas,DAL,Tyrell,Terry,Tyrell Terry,G,73,160,FR,NONE
+91,32,Hornets,Charlotte,CHA,Vernon,Carey,Vernon Carey Jr.,C,82,270,FR,NONE
+92,33,Timberwolves,Minnesota,MIN,Daniel,Oturu,Daniel Oturu,C,82,240,SO,NONE
+93,34,76ers,Philadelphia,PHI,Theo,Maledon,Theo Maledon,G,76,176,NONE,ASVEL
+94,35,Kings,Sacramento,SAC,Xavier,Tillman,Xavier Tillman Sr.,F,80,245,JR,NONE
+95,36,76ers,Philadelphia,PHI,Tyler,Bey,Tyler Bey,G-F,79,218,JR,NONE
+96,37,Wizards,Washington,WAS,Vit,Krejci,Vit Krejci,G,80,195,NONE,Casademont Zaragoza
+97,38,Jazz,Utah,UTA,Saben,Lee,Saben Lee,G,74,183,JR,NONE
+98,39,Pelicans,New Orleans,NOP,Elijah,Hughes,Elijah Hughes,F,78,210,JR,NONE
+99,40,Grizzlies,Memphis,MEM,Robert,Woodard,Robert Woodard II,G,79,235,SO,NONE
+100,41,Spurs,San Antonio,SAS,Tre,Jones,Tre Jones,G,75,185,SO,NONE
+101,42,Pelicans,New Orleans,NOP,Nick,Richards,Nick Richards,F,83,247,JR,NONE
+102,43,Kings,Sacramento,SAC,Jahmi'us,Ramsey,Jahmi'us Ramsey,G,76,195,FR,NONE
+103,44,Bulls,Chicago,CHI,Marko,Simonovic,Marko Simonovic,C,83,220,NONE,KK Mega Bemax
+104,45,Bucks,Milwaukee,MIL,Jordan,Nwora,Jordan Nwora,F,79,225,JR,NONE
+105,46,Trail Blazers,Portland,POR,CJ,Elleby,CJ Elleby,F,78,300,SO,NONE
+106,47,Celtics,Boston,BOS,Yam,Madar,Yam Madar,G,75,180,NONE, Hapoel Tel Aviv
+107,48,Warriors,Golden State,GSW,Nico,Mannion,Nico Mannion,G,75,190,FR,NONE
+108,49,76ers,Philadelphia,PHI,Isaiah,Joe,Isaiah Joe,G,77,167,SO,NONE
+109,50,Hawks,Atlanta,ATL,Skylar,Mays,Skylar Mays,G,76,205,SR,NONE
+110,51,Warriors,Golden State,GSW,Justinian,Jessup,Justinian Jessup,G,78,202,SR,NONE
+111,52,Kings,Sacramento,SAC,Kenyon,Martin,Kenyon Martin Jr.,F,78,215,NONE,IMG Academy
+112,53,Thunder,Oklahoma City,OKC,Cassius,Winston,Cassius Winston,G,73,185,SR,NONE
+113,54,Pacers,Indiana,IND,Cassius,Stanley,Cassius Stanley,G,78,193,FR,NONE
+114,55,Nets,Brooklyn,BKN,Jay,Scrubb,Jay Scrubb,G,78,220,SO,John A. Logan College
+115,56,Hornets,Charlotte,CHA,Grant,Riller,Grant Riller,G,75,190,SR,NONE
+116,57,Clippers,Los Angeles,LAC,Reggie,Perry,Reggie Perry,F,82,250,SO,NONE
+117,58,76ers,Philadelphia,PHI,Paul,Reed,Paul Reed,F,81,220,JR,NONE
+118,59,Raptors,Toronto,TOR,Jalen,Harris,Jalen Harris,G,77,195,JR,NONE
+119,60,Pelicans,New Orleans,NOP,Sam,Merrill,Sam Merrill,G,77,205,SR,NONE
+120,1,Pistons,Detroit,DET,Cade,Cunningham,Cade Cunningham,G,80,220,FR,Oklahoma State
+121,2,Rockets,Houston,HOU,Jalen,Green,Jalen Green,G,78,178,NONE,G League Ignite
+122,3,Cavaliers,Cleveland,CLE,Evan,Mobley,Evan Mobley,C,84,215,FR,USC
+123,4,Raptors,Toronto,TOR,Scottie,Barnes,Scottie Barnes,F,80,225,FR,Florida State
+124,5,Magic,Orlando,ORL,Jalen,Suggs,Jalen Suggs,G,76,205,FR,Gonzaga
+125,6,Thunder,Oklahoma City,OKC,Josh,Giddey,Josh Giddey,G,80,200,NONE,Adelaide
+126,7,Warriors,Golden State,GSW,Jonathan,Kuminga,Jonathan Kuminga,F,78,210,NONE,G League Ignite
+127,8,Magic,Orlando,ORL,Franz,Wagner,Franz Wagner,G,81,220,SO,Michigan
+128,9,Kings,Sacramento,SAC,Davion,Mitchell,Davion Mitchell,G,73,202,JR,Baylor
+129,10,Grizzlies,Memphis,MEM,Ziaire,Williams,Ziaire Williams,F,80,185,FR,Stanford
+130,11,Hornets,Charlotte,CHA,James,Bouknight,James Bouknight,G,77,190,SO,Connecticut
+131,12,Spurs,San Antonio,SAS,Joshua,Primo,Joshua Primo,G,78,190,FR,Alabama
+132,13,Pacers,Indiana,IND,Chris,Duarte,Chris Duarte,G,78,190,SR,Oregon
+133,14,Warriors,Golden State,GSW,Moses,Moody,Moses Moody,G,77,211,FR,Arkansas
+134,15,Wizards,Washington,WAS,Corey,Kispert,Corey Kispert,F,79,223,SR,Gonzaga
+135,16,Rockets,Houston,HOU,Alperen,Sengun,Alperen Sengun,C,81,240,NONE,Besiktas
+136,17,Pelicans,New Orleans,NOP,Trey,Murphy,Trey Murphy III,G,81,205,JR,Virginia
+137,18,Thunder,Oklahoma City,OKC,Tre,Mann,Tre Mann,G,77,190,SO,NONE
+138,19,Hornets,Charlotte,CHA,Kai,Jones,Kai Jones,F,82,221,SO,Texas
+139,20,Hawks,Atlanta,ATL,Jalen,Johnson,Jalen Johnson,F,81,210,FR,Duke
+140,21,Clippers,LA,LAC,Keon,Johnson,Keon Johnson,G,76,184,FR,Tennessee
+141,22,Pacers,Indiana,IND,Isaiah,Jackson,Isaiah Jackson,F,82,205,FR,Kentucky
+142,23,Rockets,Houston,HOU,Usman,Garuba,Usman Garuba,F,80,229,NONE,Real Madrid
+143,24,Rockets,Houston,HOU,Josh,Christopher,Josh Christopher,G,77,215,FR,NONE
+144,25,Knicks,New York,NYK,Quentin,Grimes,Quentin Grimes,G,77,205,JR,NONE
+145,26,Nuggets,Denver,DEN,Nah'Shon,Hyland,Nah'Shon Hyland,G,75,173,SO,Virginia Commonwealth
+146,27,Nets,Brooklyn,BKN,Cameron,Thomas,Cameron Thomas,G,76,210,FR,NONE
+147,28,76ers,Philadelphia,PHI,Jaden,Springer,Jaden Springer,G,76,205,FR,Tennessee
+148,29,Nets,Brooklyn,BKN,Day'Ron,Sharpe,Day'Ron Sharpe,C,83,265,FR,North Carolina
+149,30,Grizzlies,Memphis,MEM,Santi,Aldama,Santi Aldama,F,83,224,SO,Loyola (MD)
+150,31,Mavericks,Dallas,DAL,Tyrell,Terry,Tyrell Terry,G,73,160,FR,NONE
+151,32,Hornets,Charlotte,CHA,Vernon,Carey,Vernon Carey Jr.,C,82,270,FR,NONE
+152,33,Timberwolves,Minnesota,MIN,Daniel,Oturu,Daniel Oturu,C,82,240,SO,NONE
+153,34,76ers,Philadelphia,PHI,Theo,Maledon,Theo Maledon,G,76,176,NONE,ASVEL
+154,35,Kings,Sacramento,SAC,Xavier,Tillman,Xavier Tillman Sr.,F,80,245,JR,NONE
+155,36,76ers,Philadelphia,PHI,Tyler,Bey,Tyler Bey,G-F,79,218,JR,NONE
+156,37,Wizards,Washington,WAS,Vit,Krejci,Vit Krejci,G,80,195,NONE,Casademont Zaragoza
+157,38,Jazz,Utah,UTA,Saben,Lee,Saben Lee,G,74,183,JR,NONE
+158,39,Pelicans,New Orleans,NOP,Elijah,Hughes,Elijah Hughes,F,78,210,JR,NONE
+159,40,Grizzlies,Memphis,MEM,Robert,Woodard,Robert Woodard II,G,79,235,SO,NONE
+160,41,Spurs,San Antonio,SAS,Tre,Jones,Tre Jones,G,75,185,SO,NONE
+161,42,Pelicans,New Orleans,NOP,Nick,Richards,Nick Richards,F,83,247,JR,NONE
+162,43,Kings,Sacramento,SAC,Jahmi'us,Ramsey,Jahmi'us Ramsey,G,76,195,FR,NONE
+163,44,Bulls,Chicago,CHI,Marko,Simonovic,Marko Simonovic,C,83,220,NONE,KK Mega Bemax
+164,45,Bucks,Milwaukee,MIL,Jordan,Nwora,Jordan Nwora,F,79,225,JR,NONE
+165,46,Trail Blazers,Portland,POR,CJ,Elleby,CJ Elleby,F,78,300,SO,NONE
+166,47,Celtics,Boston,BOS,Yam,Madar,Yam Madar,G,75,180,NONE, Hapoel Tel Aviv
+167,48,Warriors,Golden State,GSW,Nico,Mannion,Nico Mannion,G,75,190,FR,NONE
+168,49,76ers,Philadelphia,PHI,Isaiah,Joe,Isaiah Joe,G,77,167,SO,NONE
+169,50,Hawks,Atlanta,ATL,Skylar,Mays,Skylar Mays,G,76,205,SR,NONE
+170,51,Warriors,Golden State,GSW,Justinian,Jessup,Justinian Jessup,G,78,202,SR,NONE
+171,52,Kings,Sacramento,SAC,Kenyon,Martin,Kenyon Martin Jr.,F,78,215,NONE,IMG Academy
+172,53,Thunder,Oklahoma City,OKC,Cassius,Winston,Cassius Winston,G,73,185,SR,NONE
+173,54,Pacers,Indiana,IND,Cassius,Stanley,Cassius Stanley,G,78,193,FR,NONE
+174,55,Nets,Brooklyn,BKN,Jay,Scrubb,Jay Scrubb,G,78,220,SO,John A. Logan College
+175,56,Hornets,Charlotte,CHA,Grant,Riller,Grant Riller,G,75,190,SR,NONE
+176,57,Clippers,Los Angeles,LAC,Reggie,Perry,Reggie Perry,F,82,250,SO,NONE
+177,58,76ers,Philadelphia,PHI,Paul,Reed,Paul Reed,F,81,220,JR,NONE
+178,59,Raptors,Toronto,TOR,Jalen,Harris,Jalen Harris,G,77,195,JR,NONE
+179,60,Pelicans,New Orleans,NOP,Sam,Merrill,Sam Merrill,G,77,205,SR,NONE
+180,1,Magic,Orlando,ORL,Paolo,Banchero,Paolo Banchero,F,82,250,FR,Duke
+181,2,Thunder,Oklahoma City,OKC,Chet,Holmgren,Chet Holmgren,F,84,195,FR,Gonzaga
+182,3,Rockets,Houston,HOU,Jabari,Smith,Jabari Smith,F,82,220,FR,Auburn
+183,4,Kings,Sacramento,SAC,Keegan,Murray,Keegan Murray,F,80,225,SO,NONE
+184,5,Pistons,Detroit,DET,Jaden,Ivey,Jaden Ivey,G,76,195,SO,Purdue
+185,6,Pacers,Indiana,IND,Bennedict,Mathurin,Bennedict Mathurin,G-F,78,210,SO,Arizona
+186,7,Trail Blazers,Portland,POR,Shaedon,Sharpe,Shaedon Sharpe,G,78,200,FR,Kentucky
+187,8,Pelicans,New Orleans,NOP,Dyson,Daniels,Dyson Daniels,G,80,200,NONE,G League Ignite
+188,9,Spurs,San Antonio,SAS,Jeremy,Sochan,Jeremy Sochan,F,81,230,FR,Baylor
+189,10,Wizards,Washington,WAS,Johnny,Davis,Johnny Davis,G,77,194,SO,Wisconsin
+190,11,Thunder,Oklahoma City,OKC,Ousmane,Dieng,Ousmane Dieng,F,81,216,NONE,Breakers
+191,12,Thunder,Oklahoma City,OKC,Jalen,Williams,Jalen Williams,G,78,190,JR,NONE
+192,13,Pistons,Detroit,DET,Jalen,Duren,Jalen Duren,C,83,250,FR,Memphis
+193,14,Cavaliers,Cleveland,CLE,Ochai,Agbaji,Ochai Agbaji,G,77,215,SR,Kansas
+194,15,Hornets,Charlotte,CHA,Mark,Williams,Mark Williams,C,85,242,SO,Duke
+195,16,Hawks,Atlanta,ATL,AJ,Griffin,AJ Griffin,F,78,222,FR,Duke
+196,17,Rockets,Houston,HOU,Tari,Eason,Tari Eason,F,80,216,SO,LSU
+197,18,Bulls,Chicago,CHI,Dalen,Terry,Dalen Terry,G,79,195,SO,NONE
+198,19,Grizzlies,Memphis,MEM,Jake,LaRavia,Jake LaRavia,G-F,80,235,JR,NONE
+199,20,Spurs,San Antonio,SAS,Malaki,Branham,Malaki Branham,G,77,180,FR,Ohio State
+200,21,Nuggets,Denver,DEN,Christian,Braun,Christian Braun,G,79,218,JR,NONE
+201,22,Timberwolves,Minnesota,MIN,Walker,Kessler,Walker Kessler,F-C,85,245,SO,NONE
+202,23,Grizzlies,Memphis,MEM,David,Roddy,David Roddy,G-F,78,255,JR,NONE
+203,24,Bucks,Milwaukee,MIL,MarJon,Beauchamp,MarJon Beauchamp,G,78,199,NONE,G League Ignite
+204,25,Spurs,San Antonio,SAS,Blake,Wesley,Blake Wesley,G,77,185,FR,NONE
+205,26,Timberwolves,Minnesota,MIN,Wendell,Moore,Wendell Moore Jr.,F,77,213,JR,NONE
+206,27,Heat,Miami,MIA,Nikola,Jovic,Nikola Jovic,F,82,223,NONE,Mega
+207,28,Warriors,Golden State,GSW,Patrick,Baldwin,Patrick Baldwin Jr.,G,81,220,FR,Milwaukee
+208,29,Rockets,Houston,HOU,TyTy,Washington,TyTy Washington Jr.,G,75,197,FR,Kentucky
+209,30,Nuggets,Denver,DEN,Peyton,Watson,Peyton Watson,G,80,200,FR,NONE
+210,31,Pacers,Indiana,IND,Andrew,Nembhard,Andrew Nembhard,G,77,193,SR,NONE
+211,32,Magic,Orlando,ORL,Caleb,Houstan,Caleb Houstan,G-F,80,205,FR,NONE
+212,33,Raptors,Toronto,TOR,Christian,Koloko,Christian Koloko,C,85,230,JR,NONE
+213,34,Thunder,Oklahoma City,OKC,Jaylin,Williams,Jaylin Williams,F,82,240,SO,NONE
+214,35,Lakers,Los Angeles,LAL,Max,Christie,Max Christie,G,78,190,FR,NONE
+215,36,Pistons,Detroit,DET,Gabriele,Procida,Gabriele Procida,G,78,194,NONE,Fortitudo Bologna
+216,37,Mavericks,Dallas,DAL,Jaden,Hardy,Jaden Hardy,G,76,198,NONE,NONE
+217,38,Grizzlies,Memphis,MEM,Kennedy,Chandler,Kennedy Chandler,G,72,171,FR,NONE
+218,39,Cavaliers,Cleveland,CLE,Khalifa,Diop,Khalifa Diop,C,85,231,NONE,Gran Canaria
+219,40,Hornets,Charlotte,CHA,Bryce,McGowens,Bryce McGowens,G,79,179,FR,NONE
+220,41,Pelicans,New Orleans,NOP,E.J.,Liddell,E.J. Liddell,F,79,240,JR,Ohio State
+221,42,Knicks,New York,NYK,Trevor,Keels,Trevor Keels,G,77,221,FR,NONE
+222,43,Clippers,LA,LAC,Moussa,Diabate,Moussa Diabate,F,83,210,FR,NONE
+223,44,Warriors,Golden State,GSW,Ryan,Rollins,Ryan Rollins,G,76,180,SO,NONE
+224,45,Timberwolves,Minnesota,MIN,Josh,Minott,Josh Minott,G,80,205,FR,NONE
+225,46,Nuggets,Denver,DEN,Ismael,Kamagate,Ismael Kamagate,C,83,220,NONE,Paris
+226,47,Grizzlies,Memphis,MEM,Vince,Williams,Vince Williams Jr.,F,78,205,SR,NONE
+227,48,Pacers,Indiana,IND,Kendall,Brown,Kendall Brown,G-F,80,205,FR,NONE
+228,49,Cavaliers,Cleveland,CLE,Isaiah,Mobley,Isaiah Mobley,F,82,240,JR,NONE
+229,50,Timberwolves,Minnesota,MIN,Matteo,Spagnolo,Matteo Spagnolo,G,76,196,NONE,Cremona
+230,51,Hawks,Atlanta,ATL,Tyrese,Martin,Tyrese Martin,G,78,215,SR,NONE
+231,52,Pelicans,New Orleans,NOP,Karlo,Matkovic,Karlo Matkovic,F,82,231,NONE,Mega
+232,53,Celtics,Boston,BOS,JD,Davison,JD Davison,G,75,195,FR,NONE
+233,54,Wizards,Washington,WAS,Yannick,Nzosa,Yannick Nzosa,C,82,195,NONE,Unicaja
+234,55,Warriors,Golden State,GSW,Gui,Santos,Gui Santos,F,80,209,NONE,Minas
+235,56,Cavaliers,Cleveland,CLE,Luke,Travers,Luke Travers,G,79,207,NONE,Perth
+236,57,Trail Blazers,Portland,POR,Jabari,Walker,Jabari Walker,F,80,200,SO,NONE
+237,58,Bucks,Milwaukee,MIL,Hugo,Besson,Hugo Besson,G,75,196,NONE,Breakers
+238,1,Spurs,San Antonio,SAS,Victor,Wembanyama,Victor Wembanyama,C,74,229,NONE,Metropolitans 92
+239,2,Hornets,Charlotte,CHA,Brandon,Miller,Brandon Miller,F,81,200,FR,Alabama
+240,3,Trail Blazers,Portland,POR,Scoot,Henderson,Scoot Henderson,G,74,196,NONE,G League Ignite
+241,4,Rockets,Houston,HOU,Amen,Thompson,Amen Thompson,G,79,215,NONE,Overtime Elite
+242,5,Pistons,Detroit,DET,Ausar,Thompson,Ausar Thompson,G,79,215,NONE,Overtime Elite
+243,6,Magic,Orlando,ORL,Anthony,Black,Anthony Black,G,79,198,FR,Arkansas
+244,7,Wizards,Washington,WAS,Bilal,Coulibaly,Bilal Coulibaly,F,80,195,NONE,Metropolitans 92
+245,8,Pacers,Indiana,IND,Jarace,Walker,Jarace Walker,F,80,240,FR,Houston
+246,9,Jazz,Utah,UTA,Taylor,Hendricks,Taylor Hendricks,F,81,210,FR,UCF
+247,10,Thunder,Oklahoma City,OKC,Cason,Wallace,Cason Wallace,G,76,193,FR,Kentucky
+248,11,Magic,Orlando,ORL,Jett,Howard,Jett Howard,G,80,215,FR,NONE
+249,12,Mavericks,Dallas,DAL,Dereck,Lively,Dereck Lively II,C,85,230,FR,Duke
+250,13,Raptors,Toronto,TOR,Gradey,Dick,Gradey Dick,G,80,205,FR,Kansas
+251,14,Pelicans,New Orleans,NOP,Jordan,Hawkins,Jordan Hawkins,G,77,195,SO,UConn
+252,15,Hawks,Atlanta,ATL,Kobe,Bufkin,Kobe Bufkin,G,76,195,SO,Michigan
+253,16,Jazz,Utah,UTA,Keyonte,George,Keyonte George,G,76,185,FR,Baylor
+254,17,Lakers,Los Angeles,LAL,Jalen,Hood-Schifino,Jalen Hood-Schifino,G,78,213,FR,Indiana
+255,18,Heat,Miami,MIA,Jaime,Jaquez,Jaime Jaquez Jr.,G-F,79,225,SR,NONE
+256,19,Warriors,Golden State,GSW,Brandin,Podziemski,Brandin Podziemski,G,77,205,SO,NONE
+257,20,Rockets,Houston,HOU,Cam,Whitmore,Cam Whitmore,F,79,232,FR,Villanova
+258,21,Nets,Brooklyn,BKN,Noah,Clowney,Noah Clowney,F,82,210,FR,NONE
+259,22,Nets,Brooklyn,BKN,Dariq,Whitehead,Dariq Whitehead,F,79,220,FR,NONE
+260,23,Trail Blazers,Portland,POR,Kris,Murray,Kris Murray,F,80,220,JR,Iowa
+261,24,Mavericks,Dallas,DAL,Olivier-Maxence,Prosper,Olivier-Maxence Prosper,F,80,230,JR,NONE
+262,25,Pistons,Detroit,DET,Marcus,Sasser,Marcus Sasser,G,74,195,SR,NONE
+263,26,Pacers,Indiana,IND,Ben,Sheppard,Ben Sheppard,G,78,190,SR,NONE
+264,27,Hornets,Charlotte,CHA,Nick,Smith,Nick Smith Jr.,G,77,185,FR,Arkansas
+265,28,Jazz,Utah,UTA,Brice,Sensabaugh,Brice Sensabaugh,F,78,235,FR,Ohio State
+266,29,Nuggets,Denver,DEN,Julian,Strawther,Julian Strawther,G,79,205,JR,NONE
+267,30,Clippers,LA,LAC,Kobe,Brown,Kobe Brown,G-F,80,250,SR,NONE
+268,31,Hornets,Charlotte,CHA,James,Nnaji,James Nnaji,C,83,250,NONE,Barcelona
+269,32,Nuggets,Denver,DEN,Jalen,Pickett,Jalen Pickett,G,76,209,SR,NONE
+270,33,Timberwolves,Minnesota,MIN,Leonard,Miller,Leonard Miller,F,82,211,NONE,G League Ignite
+271,34,Kings,Sacramento,SAC,Colby,Jones,Colby Jones,G,78,205,JR,NONE
+272,35,Bulls,Chicago,CHI,Julian,Phillips,Julian Phillips,F,80,198,FR,NONE
+273,36,Bucks,Milwaukee,MIL,Andre,Jackson,Andre Jackson Jr.,G,78,210,JR,NONE
+274,37,Nuggets,Denver,DEN,Hunter,Tyson,Hunter Tyson,F,80,215,GR,NONE
+275,38,Celtics,Boston,BOS,Jordan,Walsh,Jordan Walsh,G-F,79,205,FR,NONE
+276,39,Hawks,Atlanta,ATL,Mouhamed,Gueye,Mouhamed Gueye,F,83,210,SO,NONE
+277,40,Lakers,Los Angeles,LAL,Maxwell,Lewis,Maxwell Lewis,F,79,195,SO,NONE
+278,41,Hornets,Charlotte,CHA,Amari,Bailey,Amari Bailey,G,77,185,FR,NONE
+279,42,Wizards,Washington,WAS,Tristan,Vukcevic,Tristan Vukcevic,C,84,223,NONE,KK Partizan
+280,43,Trail Blazers,Portland,POR,Rayan,Rupert,Rayan Rupert,G,78,205,NONE,Breakers
+281,44,Spurs,San Antonio,SAS,Sidy,Cissoko,Sidy Cissoko,G,80,200,NONE,G League Ignite
+282,45,Grizzlies,Memphis,MEM,Gregory,Jackson,Gregory Jackson II,F,81,215,FR,NONE
+283,46,Hawks,Atlanta,ATL,Seth,Lundy,Seth Lundy,G-F,78,220,SR,NONE
+284,47,Pacers,Indiana,IND,Mojave,King,Mojave King,G,77,194,NONE,G League Ignite
+285,48,Clippers,LA,LAC,Jordan,Miller,Jordan Miller,G,79,195,SR,NONE
+286,49,Cavaliers,Cleveland,CLE,Emoni,Bates,Emoni Bates,F,82,190,SO,NONE
+287,50,Thunder,Oklahoma City,OKC,Keyontae,Johnson,Keyontae Johnson,F,78,230,SR,NONE
+288,51,Nets,Brooklyn,BKN,Jalen,Wilson,Jalen Wilson,F,80,225,JR,NONE
+289,52,Suns,Phoenix,PHX,Toumani,Camara,Toumani Camara,F,80,220,JR,NONE
+290,53,Timberwolves,Minnesota,MIN,Jaylen,Clark,Jaylen Clark,G,77,205,JR,NONE
+291,54,Kings,Sacramento,SAC,Jalen,Slawson,Jalen Slawson,F,79,215,SR,NONE
+292,55,Pacers,Indiana,IND,Isaiah,Wong,Isaiah Wong,G,76,184,JR,NONE
+293,56,Grizzlies,Memphis,MEM,Tarik,Biberovic,Tarik Biberovic,F,79,216,NONE,NONE
+294,57,Warriors,Golden State,GSW,Trayce,Jackson-Davis,Trayce Jackson-Davis,F,81,245,JR,NONE
+295,58,Bucks,Milwaukee,MIL,Chris,Livingston,Chris Livingston,F,78,220,FR,NONE
